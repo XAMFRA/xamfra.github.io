@@ -1,0 +1,90 @@
+* {
+    margin:0;
+    padding:0;
+}
+@font-face {
+    font-family: 'Righteouss';
+    src: url('Righteous-Regular.ttf');
+}
+body {
+    border: 0;
+    margin: 0;
+    background-color: #FFF;
+    font-family: Righteouss;
+}
+
+header {
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #498da0;
+    height: 50px;
+    width: 50%;
+    border-radius: 4px;
+}
+#xarh {
+    margin-left: 10%;
+    margin-top: -7%;
+    color: #fff;
+}
+
+nav {
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #498da0;
+    height: 50px;
+    width: 50%;
+    border-radius: 4px;
+}
+
+#xarc {
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #498da0;
+    height: 300px;
+    width: 50%;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+/*
+
+   XAR HERE
+
+*/
+
+.XARNAVCLASS {
+    margin-top: -32%;
+    margin-right: auto;
+    margin-left: 25%;
+    background: #3e3e3e;
+    height: 410px;
+    width: 0%;
+    border-radius: 4px;
+    z-index: 1;
+    position: absolute;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.XARNAVCLASS .CLOSEBUTON {
+    font-size: 55px;
+    margin-left: 90%;
+}
+.XARNAVCLASS a:hover{
+    color: #498da0;
+}
+.XARNAVCLASS a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: 0.2s;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+}
+@media screen and (max-height: 450px) {
+    .XARNAVCLASS {padding-top: 15px;}
+    .XARNAVCLASS a {font-size: 18px;}
+}
