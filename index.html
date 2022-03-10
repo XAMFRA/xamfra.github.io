@@ -1,38 +1,104 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="description" content="FOR . CYBER SECURITY . PROGRAMMING">
-	<meta name="keywords" content="HTML, CSS, JavaScript, hacking, GDB, zero day, pdf, analyst, masters, company">
-	<meta name="author" content="AhmedAbdelaziz.Reda">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/mainStyle.css">
-	<title>MainSite.XAR</title>
-	<link rel="icon" type="image/png" href="img/icon.png" />
-	<!--   OPEN XAR     -->
-	<meta property="og:image" content="https://raw.githubusercontent.com/XAMFRA/xamfra.github.io/main/img/banner.png"/>
-	<meta property="og:image:width" content="400"/>
-	<meta property="og:image:height" content="300"/>
-	<!--   OPEN XAR     -->
-	<link rel="stylesheet" type="text/css" href="css/index.css">
-	<script type="text/javascript" src="js/index.js"></script>
+	<meta charset='UTF-8'>
+	<title>< XAMFRA /></title>
+	<meta name='copyright' content='XAMFRA'>
+	<link rel='icon' href='xa_img/favicon.png'>
+	<meta name='og:country-name' content='EGYPT, Alexandria'>
+	<meta name='keywords' content='XAMFRA, hacking, how, XGS, xgs, Security'>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<meta property='og:image' content='/xa_img/og.png'>
+	<link rel='stylesheet' type='text/css' href='xa_css/main.css'>
+	<style type="text/css">
+		* {
+			padding: 0px;
+			margin: 0px;
+		}
+		html {
+			height: 100%;
+		}
+		body {
+			background: linear-gradient(0deg,#fff 10%,#006575 120%);
+			height: 100%;
+		}
+		#space {
+			height: 200px;
+		}
+		#X-logo {
+			width: 153px;
+			height: 93px;
+			overflow: hidden;
+		}
+		#ball-l {
+			/*radial-gradient(circle at center,#fff 21%,#006575 54%)*/
+			background: linear-gradient(220deg,#fff 17%,#006575 65%);
+			width: 70px;
+			height: 70px;
+			border-radius: 40px;
+			float: left;
+			z-index: 0;
+			animation-name: bob;
+			animation-duration: 4s;
+			animation-iteration-count: infinite;
+			position: absolute;
+			transition: 2s all;
+		}
+		@keyframes bob {
+			0% {
+				transform: rotateZ(0deg);
+			}
+			10% {
+				transform: rotateZ(45deg);
+			}
+			20% {
+				transform: rotateZ(-45deg);
+			}
+			30% {
+				transform: rotateZ(0deg);
+			}
+			40% {
+				transform: rotateZ(90deg);
+			}
+			50% {
+				transform: rotateZ(-90deg);
+			}
+			60% {
+				transform: rotateZ(0deg);
+			}
+			70% {
+				transform: rotateZ(180deg);
+			}
+			80% {
+				transform: rotateZ(-180deg);
+			}
+			90% {
+				transform: rotateZ(0deg);
+			}
+		}
+
+		#X-logo h1 {
+			float: left;
+			margin-top: 2px;
+			margin-left: 0px;
+			font-size: 45px;
+			color: #006575;
+			z-index: 1;
+			position: absolute;
+		}
+		#X-logo span {
+			color: #fff;
+		}
+
+	</style>
 </head>
 <body>
-	<header>
-		<span class="nav" style="font-size:35px;cursor:pointer;margin-left: 2%;color: #fff;" onclick="OPENNAV()">&#9776;</span>
-		<h1 id="xarh">XAR</h1>
-	</header>
-	<nav id="navJS">
-	<!-- work on News -->
-	</nav>
-	<div id="xarc">
-		<div id="xarcr"></div>
-		<div id="xarcl"></div>
-	</div>
-	<div id="XARNAV" class="XARNAVCLASS">
-		<a href="javascript:void(0)" class="CLOSEBUTON" onclick="CLOSENAV()">&times;</a>
-		<a class="D" href="https://discord.gg/kz4Y5fa9x9" target="_blank">Discord Server</a>
-		<a class="D" href="https://www.youtube.com/channel/UCwJLxZbiR1tT0OikfAHAk1Q" target="_blank">Youtube Channel</a>
-	</div>
+	<center>
+		<div id="space"></div>
+		<div id="X-logo">
+			<div id="ball-l"></div>
+			<h1><span>X</span>amfra</h1>
+		</div>
+	</center>
 </body>
 </html>
